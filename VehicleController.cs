@@ -26,6 +26,8 @@ public class VehicleController : MonoBehaviour
     public WC WheelCollider;
 	public WT Transform;
     public EffectVehicle Effect;
+    public float wheelrpm;
+    public float gesrboxrpm;
     
     public void Start(){
         rb = GetComponent<Rigidbody>();

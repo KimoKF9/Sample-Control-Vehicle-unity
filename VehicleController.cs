@@ -147,7 +147,8 @@ public class VehicleController : MonoBehaviour
     void Engine_(){
          //Engine.rpmNeedle.rotation = Quaternion.Euler(0,0,Mathf.Lerp(Engine.miniNeedleRotation,Engine.maxNeedleRotaion,Engine.EngineRPM /Engine.maxRPM_D));
          Engine.rpmImage.fillAmount = Engine.currentRPM * 0.9f/10000f;
-        Engine.currentRPM = ((Transmission.speed  * 518) /40) * (Transmission.gearRatios[0] * Transmission.gearRatios[Transmission.currentGear]); 
+        //Engine.currentRPM = ((Transmission.speed  * 518) /40) * (Transmission.gearRatios[0] * Transmission.gearRatios[Transmission.currentGear]); 
+	Engien.currentRPM = (Transmission.speed / transmission.gearRatios[Transmission.currentGear];
         /////////
         Engine.rpmDisplay.text = $"RPM: {(int)Engine.currentRPM}";
         Engine.TorqueDisplay.text = $"Torque: {(float)Engine.Torque}";

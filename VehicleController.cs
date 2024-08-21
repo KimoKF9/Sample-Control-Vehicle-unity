@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class VehicleController : MonoBehaviour
 {
 
-    [Header("Basic Entries")]
+    [Header("Basic-Entries")]
     [Range(-1,1)]
 	public float steerInput = 0.0f;
     [Range(0,1)]

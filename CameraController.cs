@@ -1,4 +1,4 @@
-//...﻿. VCR 
+//VCR 
 using UnityEngine;
 
 public class CameraController : MonoBehaviour

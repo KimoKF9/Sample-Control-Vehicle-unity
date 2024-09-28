@@ -1,5 +1,6 @@
 //VCR 
 using UnityEngine;
+using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
